@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  background-color: #1a4e7d;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#logo-container {
+  display: flex;
+}
+
