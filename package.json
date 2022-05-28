@@ -1,7 +1,7 @@
 {
   "name": "weather",
   "version": "0.1.0",
-  "homepage": "https://ska0.github.io/whats-the-weather",
+  "homepage": "https://ska0.github.io/weatherApp",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
