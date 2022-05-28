@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/weatherApp/static/css/main.3fe1868d.css",
+    "main.js": "/weatherApp/static/js/main.afd7ddb7.js",
+    "static/js/787.13d76ca7.chunk.js": "/weatherApp/static/js/787.13d76ca7.chunk.js",
+    "static/media/logo.svg": "/weatherApp/static/media/logo.9aaee5d3060fb437dfb61bd9d1b42b5d.svg",
+    "static/media/t-storm.svg": "/weatherApp/static/media/t-storm.0c98486e9a93646f9527be712bfa6621.svg",
+    "static/media/heavy-snow.svg": "/weatherApp/static/media/heavy-snow.7025ad2c5af20496e09f966082ec79db.svg",
+    "static/media/snow.svg": "/weatherApp/static/media/snow.7dc2a83f4812acfe4e58dd5fcd27208a.svg",
+    "static/media/light-snow.svg": "/weatherApp/static/media/light-snow.81b796083798e993fb7f61bc742e3481.svg",
+    "static/media/light-shower-rain.svg": "/weatherApp/static/media/light-shower-rain.90dbd01c5c9bb9d9e45536ee4c2b3124.svg",
+    "static/media/cloudy-day-2.svg": "/weatherApp/static/media/cloudy-day-2.16de48359bb88c3a667c8676e4608d5a.svg",
+    "static/media/cloudy-day-3.svg": "/weatherApp/static/media/cloudy-day-3.ca85b1a51a6ed95b7bd62b13ab8070a7.svg",
+    "static/media/cloudy-day-1.svg": "/weatherApp/static/media/cloudy-day-1.46032ec459bdb6acff64cc53955d10ed.svg",
+    "static/media/shower-rain.svg": "/weatherApp/static/media/shower-rain.b552b6a1c0ccd931c1a98cfa2b6f026c.svg",
+    "static/media/day.svg": "/weatherApp/static/media/day.60de8c02e7e7b6c5493ca17b53bf278e.svg",
+    "static/media/cloudy.svg": "/weatherApp/static/media/cloudy.41e22da2094279ee73d2611f7d490721.svg",
+    "static/media/drizzle.svg": "/weatherApp/static/media/drizzle.74dcd588e3888ccc41cb9b8253c80874.svg",
+    "static/media/light-rain.svg": "/weatherApp/static/media/light-rain.74dcd588e3888ccc41cb9b8253c80874.svg",
+    "static/media/heavy-rain.svg": "/weatherApp/static/media/heavy-rain.3c8e227d9f4cb8b6752a3b990d7f56b4.svg",
+    "static/media/rain.svg": "/weatherApp/static/media/rain.4589baba564126197ebdbbec7ed554cb.svg",
+    "index.html": "/weatherApp/index.html",
+    "main.3fe1868d.css.map": "/weatherApp/static/css/main.3fe1868d.css.map",
+    "main.afd7ddb7.js.map": "/weatherApp/static/js/main.afd7ddb7.js.map",
+    "787.13d76ca7.chunk.js.map": "/weatherApp/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe1868d.css",
+    "static/js/main.afd7ddb7.js"
+  ]
+}
