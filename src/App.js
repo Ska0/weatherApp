@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/logo.svg";
+import "./stylesheets/App.css";
+import { useState, useEffect } from "react";
+import { getForecast, getWeather } from "./features/weatherSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
+import Header from './components/Header';
+import Current from "./components/Current";
+import Forecast from "./components/Forecast";
+
 
 function App() {
+  const dispatch = useDispatch();
+ 
+  const { apiWeatherResponse, apiForecastResponse, isLoading, isError, message } = useSelector(
+    (state) => state.weather
+  );
+
+
+
+  useEffect(() => {
+    if (apiWeatherResponse === undefined) {
+      dispatch(getWeather("Hermann"));
+    }
+
+    if (apiForecastResponse === undefined) {
+      dispatch(getForecast("Hermann"));
+    }
+
+    if(apiWeatherResponse !== undefined) {
+    
+    }
+  }, [apiWeatherResponse, apiForecastResponse, dispatch]);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Current />
+      <Forecast forecastArr={apiForecastResponse} />
     </div>
   );
 }
